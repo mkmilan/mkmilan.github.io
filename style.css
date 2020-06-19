@@ -1,0 +1,103 @@
+body, html{
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   box-sizing: border-box;
+}
+nav{
+   background-color: #1404fd;
+   display: flex;
+   justify-content: space-between;
+   height: 180px;
+   align-items: center;   
+}
+.contact{
+   width: 60%;
+   color: #fff;
+   margin-left: 2em;   
+}
+nav li{
+   list-style: none;  
+}
+ul{
+   padding: 0;
+   margin: 0;
+   line-height: 1.8em;
+}
+nav img{
+   height: 180px;
+   float: right;
+} 
+.fa-mobile-alt{
+   padding-left: 4px;
+}
+.fa-user{
+   padding-left: 1.5px;
+}
+@media (max-width: 550px){
+   .contact{
+      font-size: 0.8em;
+   }
+   .work{
+      background-image: url("/images/pico.jpg");
+      background-attachment: fixed;
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      color: #fff;
+      text-shadow: 1px 1px 1px #000;
+   }
+
+}
+
+/***********   about    ****/
+
+.about-image{
+   background-image: url("/images/pico.jpg");
+   background-attachment: fixed;
+   background-position: left;
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+.bg-infoo{
+   background-color: rgb(123, 123, 252);
+}
+
+/**************   main   ***********************/
+main{
+   margin: 4em 2em;
+   color: rgb(95, 94, 94);
+}
+.work h2{
+   color: rgb(95, 94, 94);
+   border-bottom: 3px solid rgb(95, 94, 94);
+   display: inline-block;
+   padding-bottom: 5px;
+   margin-top: 0.5em;
+   margin-bottom: 1.5em;
+}
+
+.work-place{
+   border-bottom: 10px solid rgb(123, 123, 252);
+   margin-bottom: 2em;
+}
+.work-place p{
+   line-height: 1.2em;
+}
+.work-place p:nth-child(4){
+   font-weight: bold;
+}
+.work-place:last-child p{
+   font-weight: normal;
+}
+.work-place h4{
+   margin-bottom: 1em;
+   color: #1404fd;
+}
+.work .col-6 img{
+   width: 100%;
+}
+
+
+
+
