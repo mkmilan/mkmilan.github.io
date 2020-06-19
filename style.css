@@ -39,7 +39,7 @@ nav img{
       font-size: 0.8em;
    }
    .work{
-      background-image: url("/images/pico.jpg");
+      background-image: url("pico.jpg");
       background-attachment: fixed;
       background-position: center;
       background-size: contain;
@@ -53,7 +53,7 @@ nav img{
 /***********   about    ****/
 
 .about-image{
-   background-image: url("/images/pico.jpg");
+   background-image: url("pico.jpg");
    background-attachment: fixed;
    background-position: left;
    background-size: contain;
